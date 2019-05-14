@@ -1,0 +1,2058 @@
+code started executing
+(19807, 243)
+(4952, 243)
+Best Parameter Setting:
+
+(C = 0.0001, solver = newton-cg)
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute, total=   5.7s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.1min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   6.3s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.2min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.0min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=   2.9s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  35.5s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  47.0s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  29.3s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  37.0s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.3min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  56.0s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto, total=  35.7s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  52.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  30.0s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total=  52.3s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   3.9s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  18.1s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  41.8s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  29.6s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  44.2s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  27.8s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.4min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  17.1s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  34.5s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute, total=   6.8s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  55.7s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute, total=   9.1s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute, total=   9.1s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  18.3s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.2s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False, total=  32.4s
+[CV] n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True 
+[CV]  n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True, total=  51.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  18.5s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  26.1s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  45.4s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.6min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  23.8s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  45.9s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute, total=   5.2s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  58.8s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  21.9s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.3min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  57.6s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute, total=   7.2s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  25.0s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute, total=  12.0s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute, total=   7.6s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute, total=  11.6s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  26.9s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  31.0s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  28.7s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  53.7s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=   6.6s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto, total=  36.4s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  51.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  35.0s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  26.5s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=  10.8s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.1s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  19.6s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   8.3s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  49.7s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute, total=   4.3s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  48.4s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  30.4s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  26.6s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  22.9s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.0min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  52.1s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto, total=  52.9s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute, total=   9.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute, total=   7.4s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  15.8s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  30.7s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  33.5s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.4s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  22.6s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=   3.0s
+[CV] criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7 
+[CV]  criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6 
+[CV]  criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6 
+[CV]  criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False, total=  32.4s
+[CV] n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True 
+[CV]  n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True, total=  51.5s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.1min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  15.3s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.3min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  29.4s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  49.0s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.4min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  16.6s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  41.7s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.0s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=   3.2s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto, total=  55.4s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.3min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  35.0s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute, total=   8.3s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  42.6s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  52.8s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.2s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  28.7s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  25.8s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  53.1s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=   6.3s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=   4.8s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.4min
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   8.1s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  26.0s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.0min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.3min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total=  53.1s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  19.0s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   9.2s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  54.0s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   3.5s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  21.4s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.1min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  42.0s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.5min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  53.7s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  29.4s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.3min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  18.6s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  33.3s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute, total=   7.9s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  58.1s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute, total=   9.0s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=  10.0s
+[CV] criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7 
+[CV]  criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7 
+[CV]  criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False, total=  32.5s
+[CV] n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True 
+[CV]  n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True, total=  51.7s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  55.2s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute, total=   7.0s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  23.3s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  35.1s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   9.4s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.0min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute, total=   6.1s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  51.4s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  19.3s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  57.5s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  38.1s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute, total=  11.4s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  26.4s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  28.0s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  30.0s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total=  58.5s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total=  58.6s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto, total=  38.8s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  51.4s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  30.2s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.3min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total=  48.2s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   4.3s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  19.6s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.1min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  45.4s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.4min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  21.9s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  51.9s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto, total=  55.8s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute, total=   9.1s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute, total=   5.8s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  14.9s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  30.6s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.9s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  49.8s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute, total=   9.3s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute, total=   9.1s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  16.3s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.2s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False, total=  32.5s
+[CV] n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True 
+[CV]  n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True, total=  51.8s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  53.8s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute, total=   5.8s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.0min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   6.4s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto, total=  59.1s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total=  51.3s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.2s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  41.1s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  22.5s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.3min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  40.4s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute, total=  12.2s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  40.2s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  47.7s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  53.4s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute, total=   6.7s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  32.5s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  28.6s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total=  58.7s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto, total=  44.7s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  51.7s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  32.3s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  28.5s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=   8.4s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   9.2s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  22.2s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   7.2s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  45.1s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   5.3s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  14.1s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  36.9s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  27.1s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.0min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  39.1s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total=  59.5s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  31.3s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.1min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute, total=   7.5s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  15.6s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  28.7s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  34.1s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute, total=   9.3s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute, total=  14.7s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute, total=   9.2s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  16.5s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.2s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=5, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=1, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7 
+[CV]  criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7 
+[CV]  criterion=gini, max_depth=90, max_features=5, min_samples_leaf=2, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=90, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=10, min_samples_leaf=4, max_features=sqrt, max_depth=90, bootstrap=False, total=  32.5s
+[CV] n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True 
+[CV]  n_estimators=1400, min_samples_split=5, min_samples_leaf=1, max_features=sqrt, max_depth=30, bootstrap=True, total=  52.0s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  57.8s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute, total=   7.5s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  19.4s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  34.9s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  33.6s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.6min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  19.4s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  48.4s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=   5.1s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.0min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  29.5s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute, total=   9.2s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  45.2s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  51.3s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute, total=  12.8s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  31.6s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  24.4s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  56.8s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=   6.1s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.4min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.6min
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   7.7s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  50.6s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  26.1s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.3min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total=  49.0s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute, total=   2.4s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  55.5s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  35.3s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.6min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  22.1s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  51.6s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto, total=  46.9s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute, total=  10.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute, total=   8.7s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   5.1s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=   9.1s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  26.1s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  33.2s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.1s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  23.7s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=   3.1s
+[CV] criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=3, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=10, max_features=2, min_samples_leaf=4, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=60, max_features=8, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=30, max_features=2, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=gini, max_depth=40, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.1s
+[CV] n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True 
+[CV]  n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True, total=   7.9s
+[CV] n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False, total=  36.0s
+[CV] n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False 
+[CV]  n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False, total= 1.1min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.1min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=brute, total=   5.4s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.2min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  51.6s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  44.8s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.5min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  26.7s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  44.6s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=   3.4s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto, total=  55.9s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  27.3s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=brute, total=  11.3s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  47.2s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  57.8s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute, total=   9.9s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  27.7s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  21.0s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  59.9s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=   6.1s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  57.1s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=  11.7s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=  10.3s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.2min
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   9.9s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  21.8s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.3min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  26.1s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=  11.3s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.5s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  19.5s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   9.9s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  50.9s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute, total=   3.7s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.0min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  54.2s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  28.3s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  25.0s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  47.8s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  31.1s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  50.5s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   3.4s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=   8.3s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  29.0s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute, total=  10.8s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  42.0s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  24.2s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=   3.8s
+[CV] criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=2, min_samples_leaf=5, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=2, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=3, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=1, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3, total=   0.1s
+[CV] criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True 
+[CV]  n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True, total=   7.8s
+[CV] n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False, total=  35.7s
+[CV] n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False 
+[CV]  n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False, total= 1.1min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  57.2s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   9.5s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.4min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  44.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  22.1s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto, total=  58.5s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  41.5s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute, total=  10.7s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  45.9s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute, total=  10.4s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  28.5s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  29.5s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  30.6s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=auto, total=  22.6s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  26.0s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  28.2s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=   8.0s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   8.0s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  23.0s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   8.9s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  50.2s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   3.9s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  22.6s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.1min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.6min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  37.9s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.5min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  25.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.3min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  53.2s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto, total=  47.3s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute, total=   6.8s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   6.2s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=   8.4s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  25.3s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  34.9s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute, total=  10.4s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  24.4s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=   3.6s
+[CV] criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=gini, max_depth=40, max_features=5, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=3, min_samples_leaf=8, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5 
+[CV]  criterion=gini, max_depth=100, max_features=6, min_samples_leaf=5, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=5, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=gini, max_depth=50, max_features=7, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=2, min_samples_leaf=5, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=7, min_samples_leaf=4, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=7, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=8, min_samples_leaf=7, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=1, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=3, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=30, max_features=8, min_samples_leaf=6, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=4, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=80, max_features=3, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=3, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6 
+[CV]  criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=8, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3, total=   0.1s
+[CV] criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=7, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True 
+[CV]  n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True, total=   8.0s
+[CV] n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False, total=  35.7s
+[CV] n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False 
+[CV]  n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False, total= 1.1min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.1min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.3min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   8.3s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=brute, total=   5.0s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  55.1s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  53.1s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute, total=   8.8s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  29.7s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  26.5s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.6min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  32.9s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.2min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=   5.6s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.3min
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=  10.6s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  23.9s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.3min
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=auto, total=  58.6s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.4min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute, total=   2.6s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  56.8s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  30.5s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  32.9s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.0min
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  20.5s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=auto, total=  56.6s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  44.9s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=auto, total=  45.9s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=brute, total=  11.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=brute, total=  10.1s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   4.2s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=   8.7s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  25.0s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=auto, total=  32.2s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=brute, total=  10.3s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  25.4s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute, total=   8.2s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  14.5s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.2s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=6, min_samples_split=3, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=2, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=70, max_features=4, min_samples_leaf=1, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3 
+[CV]  criterion=entropy, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=3, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2 
+[CV]  criterion=gini, max_depth=90, max_features=7, min_samples_leaf=1, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=7, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=50, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=5, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5 
+[CV]  criterion=gini, max_depth=50, max_features=6, min_samples_leaf=4, min_samples_split=5, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=90, max_features=4, min_samples_leaf=5, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=80, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=gini, max_depth=20, max_features=2, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=110, max_features=8, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=30, max_features=4, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=gini, max_depth=90, max_features=2, min_samples_leaf=7, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=5, min_samples_leaf=8, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=4, min_samples_split=4, total=   0.0s
+[CV] criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=6, min_samples_leaf=3, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=1, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=gini, max_depth=30, max_features=6, min_samples_leaf=7, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=7, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=gini, max_depth=30, max_features=4, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2 
+[CV]  criterion=gini, max_depth=50, max_features=8, min_samples_leaf=5, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=20, max_features=1, min_samples_leaf=2, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=100, max_features=1, min_samples_leaf=8, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=6, min_samples_leaf=8, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=70, max_features=1, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=7, total=   0.0s
+[CV] n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True 
+[CV]  n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True, total=   7.9s
+[CV] n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False, total=  36.2s
+[CV] n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False 
+[CV]  n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False, total= 1.1min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  55.3s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  16.3s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.2min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  26.6s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total=  43.9s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.4min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  26.0s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  49.4s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=   4.7s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.0min
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  19.3s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=auto, total=  45.1s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute, total=  13.3s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=5, algorithm=brute, total=  10.2s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  58.8s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=brute, total=   6.3s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  30.5s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  41.3s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=brute, total=  12.7s
+[CV] weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  29.3s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=1, algorithm=ball_tree, total=  26.7s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.1min
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=   7.6s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total= 1.0min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=brute, total=   7.2s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.3min
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=brute, total=   9.3s
+[CV] weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=8, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  28.9s
+[CV] weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=distance, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.1min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  29.5s
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=2, algorithm=brute, total=   5.5s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=brute, total=   7.6s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=1, algorithm=auto, total= 1.5min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=brute, total=   2.4s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=2, algorithm=auto, total= 1.3min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=kd_tree, total= 1.2min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  57.0s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=3, algorithm=ball_tree, total=  37.4s
+[CV] weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=8, n_jobs=-1, leaf_size=1, algorithm=kd_tree, total= 1.4min
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  46.2s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=3, algorithm=auto, total= 1.1min
+[CV] weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  33.7s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=kd_tree, total=  57.3s
+[CV] weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=7, n_jobs=-1, leaf_size=2, algorithm=brute, total=   6.0s
+[CV] weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=brute, total=  10.1s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=5, algorithm=ball_tree, total=  29.6s
+[CV] weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=5, n_jobs=-1, leaf_size=1, algorithm=brute, total=  12.0s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=kd_tree, total=  56.2s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=5, algorithm=brute, total=   7.4s
+[CV] weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute 
+[CV]  weights=uniform, n_neighbors=9, n_jobs=-1, leaf_size=3, algorithm=brute, total=   9.5s
+[CV] weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree 
+[CV]  weights=distance, n_neighbors=6, n_jobs=-1, leaf_size=2, algorithm=ball_tree, total=  18.2s
+[CV] criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=50, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.2s
+[CV] criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=80, max_features=8, min_samples_leaf=3, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=3, min_samples_leaf=3, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=90, max_features=3, min_samples_leaf=5, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=7, min_samples_split=3, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5 
+[CV]  criterion=gini, max_depth=10, max_features=4, min_samples_leaf=2, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=7, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6 
+[CV]  criterion=entropy, max_depth=90, max_features=5, min_samples_leaf=7, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=2, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=60, max_features=3, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=70, max_features=3, min_samples_leaf=1, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=100, max_features=2, min_samples_leaf=4, min_samples_split=6, total=   0.0s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6 
+[CV]  criterion=gini, max_depth=110, max_features=5, min_samples_leaf=4, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=40, max_features=6, min_samples_leaf=6, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4 
+[CV]  criterion=gini, max_depth=70, max_features=6, min_samples_leaf=8, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3 
+[CV]  criterion=gini, max_depth=50, max_features=1, min_samples_leaf=3, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2, total=   0.1s
+[CV] criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2 
+[CV]  criterion=entropy, max_depth=70, max_features=2, min_samples_leaf=3, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3 
+[CV]  criterion=gini, max_depth=20, max_features=5, min_samples_leaf=4, min_samples_split=3, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=3, min_samples_split=8, total=   0.1s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8 
+[CV]  criterion=gini, max_depth=10, max_features=8, min_samples_leaf=8, min_samples_split=8, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5, total=   0.0s
+[CV] criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5 
+[CV]  criterion=entropy, max_depth=100, max_features=3, min_samples_leaf=7, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4 
+[CV]  criterion=gini, max_depth=90, max_features=1, min_samples_leaf=3, min_samples_split=4, total=   0.0s
+[CV] criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5, total=   0.1s
+[CV] criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5 
+[CV]  criterion=gini, max_depth=80, max_features=4, min_samples_leaf=6, min_samples_split=5, total=   0.0s
+[CV] criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2 
+[CV]  criterion=gini, max_depth=40, max_features=1, min_samples_leaf=4, min_samples_split=2, total=   0.0s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4 
+[CV]  criterion=entropy, max_depth=60, max_features=6, min_samples_leaf=5, min_samples_split=4, total=   0.1s
+[CV] criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=10, max_features=4, min_samples_leaf=4, min_samples_split=7, total=   0.0s
+[CV] criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6 
+[CV]  criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6, total=   0.1s
+[CV] criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6 
+[CV]  criterion=gini, max_depth=40, max_features=7, min_samples_leaf=5, min_samples_split=6, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7 
+[CV]  criterion=entropy, max_depth=20, max_features=8, min_samples_leaf=7, min_samples_split=7, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.1s
+[CV] criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4 
+[CV]  criterion=gini, max_depth=100, max_features=7, min_samples_leaf=2, min_samples_split=4, total=   0.1s
+[CV] n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True 
+[CV]  n_estimators=200, min_samples_split=10, min_samples_leaf=2, max_features=sqrt, max_depth=50, bootstrap=True, total=   7.9s
+[CV] n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False 
+[CV]  n_estimators=600, min_samples_split=2, min_samples_leaf=2, max_features=auto, max_depth=60, bootstrap=False, total=  36.1s
+[CV] n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False 
+[CV]  n_estimators=1000, min_samples_split=10, min_samples_leaf=1, max_features=auto, max_depth=80, bootstrap=False, total= 1.1min
