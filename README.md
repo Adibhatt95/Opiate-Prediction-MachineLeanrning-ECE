@@ -7,6 +7,7 @@
 
 ## Source Code 
 - Complete Source Code along with hyperparameter tuning: `apb462_Project_Notebook_Final.ipynb`
+- Complete 2-layer NN code trainied with GPU with one-hot encoding: `2LayerNeuralNetwork82percentAccuracy.ipynb`
 - Hyperparameter tuning script: `hpc_tuning.py`
 - Batch script to run in HPC: `hpc_tuning.sbatch`
 
