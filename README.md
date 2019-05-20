@@ -28,4 +28,4 @@ overdose deaths.
 <b style="color:orange">Target Variable:</b> Opioid Prescriber or not?
 
 <b style="color:purple">Impact:</b> Model is able to predict prescriber with opioid prescription and
-individual chemicals and features of high importance causing opioid addiction.
+individual chemicals and features of high importance causing opioid addiction. This can greatly reduce deaths due to drug addictions and can also improve awareness of the causes of drug addictions and can facilitate better prescriptions techniques during drug presriptions. The PCA analysis reveals the most about the most interesting findings through PCA to exemplify the above.
