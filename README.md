@@ -1,4 +1,4 @@
-# Opioid Prescription Predictive Analysis  
+# Opioid Prescription Predictive Analysis  (SEE BOTH NOTEBOOKS) THERE ARE 2 JUPYTER NOTEBOOKS
 ## Submission By  
 <ul>
   <li>Aditya Bhatt (apb462@nyu.edu)</li>
